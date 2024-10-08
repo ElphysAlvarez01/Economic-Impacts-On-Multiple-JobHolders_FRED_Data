@@ -111,4 +111,4 @@ These findings suggest that economic factors may influence the likelihood of men
 
 #### Next Steps
 Moving forward, I plan to revisit this analysis in a few weeks to incorporate updated metrics. In particular, I aim to enhance the study by adding additional economic indicators, including wage fluctuations, job openings, poverty trends over time, daycare costs, and retail prices. This broader dataset will provide a more comprehensive understanding of the factors influencing multiple job holding.
-
+![](Meme.png)
