@@ -38,7 +38,7 @@ recession_periods = [
 #### 2. **Annual Mean Differences with Recessions Periods Highlighted**
 - After reviewing the annual statistics table that displayed the variable means for each year, I noticed significant year-over-year fluctuations in the mean differences in recent years. As a result, these charts were created to visualize the annual percentage changes.
   
-![](Annual-Perc-Change-All-Multi-Jobs-Holders.png)
+![](MeanDiff_PrimaryMetrics.png)
 
 **Consumer Price Index Mean YOY Diff**
 - It appears interesting that CPI increased YoY before every recession. The only recession that did not include CPI increases was the 2020 recession induced by the sudden COVID crisis. 
@@ -69,12 +69,12 @@ When the mean is stable with small error bars, suggests more predictability as e
 
 #### 5. **Types of Multiple Jobs Holders Mean Breakdown Overtime**
 
-![](.png)
+![](Annual-Perc-Change-All-Multi-Jobs-Holders_StackBars.png)
 
 - Of the three types of multiple job holders, Primary Full-Time with a Secondary Part-Time job is the most common type.
 - All Multiple Job Holder Types have been trending higher compared to the average of the last 30 years.
   
-![](.png)
+![](PrimaryFT_SecondaryPT.png)
 
 - However, the group with individuals with Primary & Secondary Full-Time jobs started to increase in 2021 before the two other groups.
   
@@ -93,8 +93,11 @@ When the mean is stable with small error bars, suggests more predictability as e
 
 #### 8. **Top Strong Correlation Analysis**
 
+- Employment-related metrics also demonstrated substantial correlations with inflation and housing costs. The proportion of **Male Multiple Job Holders** relative to total employment had a robust correlation with CPI (0.82), suggesting that higher inflation may be associated with increased labor market participation in secondary jobs. The strong correlations between both **Owner Equivalent Rent** (0.80) and **Rent of Primary Residence** (0.79), indicate a potential feedback loop between inflation, housing affordability, and labor force adjustments.
 
 #### 9. **12-Month Mean of Delinquency as a Recession Signals**
+![](CreditCardDelinquency_RSignal.png)
+- We can observe that when the Original value of Delinquency in Credit Card Loans across above its rolling 12-month mean it signals a recession a couple of months later except in April 2022 as no recession has been called out as of yet.
 
 ### **C. Conclusion & Next Step:**
 The analysis revealed a notable correlation between economic and rent-related metrics and the prevalence of multiple jobholders among males, a trend not observed in females. The correlations are as follows:
