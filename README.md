@@ -53,6 +53,7 @@ recession_periods = [
 
 
 #### 3. **Stability & Volatility Periods (Standard Deviation & Error Bars)**
+![](CPI_Mea_Std_Overtime.png)
 When the mean is stable with small error bars, suggests more predictability as every following quarter is not too different from the previous. On the other end, the periods with wide error bars suggest low confidence that the mean represents the rest of the dataset. 
 - CPI error bars expanding before recession periods (e.g., 2001, 2007) and after 2020. This makes sense as these periods included sudden spikes quarter over quarter. 
 - It is interesting to observe the error bars during those recession periods and how for each consequently recession the volatility expands with larger fluctuations than the prior recession. I wonder if this is due to the increase in value or the increase in volatility over time.
