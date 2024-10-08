@@ -1,5 +1,5 @@
-![](.png)
-## $${\color{red}Economic \ impacts \ the \ influence \ Multiple \ Job\ Holder \ Data \ ? \}$$
+![](FinancialReportDocsBanner.png)
+## $${\color{red}Economic \ impacts \ that \ influence \ Multiple \ Job\ Holder \ Data \ ? \}$$
 
 ## Project Overview
 > The labor market is constantly evolving, with increasing numbers of individuals taking on multiple jobs. This phenomenon raises questions about the economic and social implications of such arrangements. This notebook analyzes data related to multiple job holders, shedding light on trends, demographics, and the overall impact on the workforce.
@@ -38,7 +38,7 @@ recession_periods = [
 #### 2. **Annual Mean Differences with Recessions Periods Highlighted**
 - After reviewing the annual statistics table that displayed the variable means for each year, I noticed significant year-over-year fluctuations in the mean differences in recent years. As a result, these charts were created to visualize the annual percentage changes.
   
-![](.png)
+![](Annual-Perc-Change-All-Multi-Jobs-Holders.png)
 
 **Consumer Price Index Mean YOY Diff**
 - It appears interesting that CPI increased YoY before every recession. The only recession that did not include CPI increases was the 2020 recession induced by the sudden COVID crisis. 
@@ -58,8 +58,8 @@ When the mean is stable with small error bars, suggests more predictability as e
 - It is interesting to observe the error bars during those recession periods and how for each consequently recession the volatility expands with larger fluctuations than the prior recession. I wonder if this is due to the increase in value or the increase in volatility over time.
 
 #### 4. **Percentage of Employed People Holding Multiple Jobs**
-
-![](.png)
+  
+![](Annual-Perc-Change-All-Multi-Jobs-Holders.png)
 
 - From 1995 to 2010, the percentage of multiple jobholders showed a clear downward trend. Following that period, it stabilized within a range, dipping sharply to a historic low during the pandemic shutdowns. However, there has been a resurgence since then, approaching the 2008 highs.
 
@@ -80,17 +80,16 @@ When the mean is stable with small error bars, suggests more predictability as e
   
 #### 6. **Delinquency in Credit Card and Multiple Job Holders (Primary FT & Secondary PT)**
 
-![](.png)
+![](Delinquencies_Mult-Job-Holders.png)
 
 - In the periods leading up to the 2001 and 2008 recessions, the trend in multiple job holders with a primary full-time and secondary part-time role closely followed the delinquency rate. 
 - As shown in the chart, this group of job holders increased each time it touched the delinquency rate (e.g. 1996-01 to 2000-01 & 2005-01 to 2008-01). However, this pattern shifts once the recessions begin, likely due to fewer job opportunities available during those economic downturns.
 
 #### 7. **Credit Card Delinquency Acceleration Rate Comparison**
+![](AccelarationTable.png)
 - The period from October 2005 to April 2009, which began before the 2008 Financial Crisis, exhibits a substantial value increase of 3.23 over 1,278 days, resulting in an acceleration of approximately 0.0025 per day.
 
 - In contrast, the current period (July 2021 to April 2024) shows a smaller value increase of 1.71 over 1,005 days, yielding an acceleration rate of about 0.0017 per day. However, with historically low unemployment at present, could the acceleration rate increase if the unemployment trend reverses and begins to rise?
-  
-![](.png)
 
 #### 8. **Top Strong Correlation Analysis**
 
