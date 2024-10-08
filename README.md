@@ -17,7 +17,10 @@ Analysis was conducted on Sept 2024 and all files were as of July 2024.
 
 ## Steps: 
 ### **A. Data Preparation:**
-- **Data Cleaning:** Date formats, round the values for consistency, and ensure the start date (2001-01-01) is the same across files.
+**Data Cleaning & Merging:**
+- All files were inner merged with the 'DATE' column and combined with a starting date of January 1, 1994.
+- The datetypes were kept the same because they provide valueable insights in their format. For example, changing the floats to intergers would change the results.
+- There were no nulls found which is expected as this is usually a data source with clean data.  
 
 ### **B. Series of Analysis & Visualizations:**
 ### 1. 
