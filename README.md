@@ -1,4 +1,4 @@
-![](FinancialReportDocsBanner.png)
+![](data_visualizations/FinancialReportDocsBanner.png)
 ## $${\color{red}Economic \ impacts \ that \ influence \ Multiple \ Job\ Holder \ Data \ ? \}$$
 
 ## Project Overview
@@ -38,7 +38,7 @@ recession_periods = [
 #### 2. **Annual Mean Differences with Recessions Periods Highlighted**
 - After reviewing the annual statistics table that displayed the variable means for each year, I noticed significant year-over-year fluctuations in the mean differences in recent years. As a result, these charts were created to visualize the annual percentage changes.
   
-![](MeanDiff_PrimaryMetrics.png)
+![](data_visualizations/MeanDiff_PrimaryMetrics.png)
 
 **Consumer Price Index Mean YOY Diff**
 - It appears interesting that CPI increased YoY before every recession. The only recession that did not include CPI increases was the 2020 recession induced by the sudden COVID crisis. 
@@ -53,14 +53,14 @@ recession_periods = [
 
 
 #### 3. **Stability & Volatility Periods (Standard Deviation & Error Bars)**
-![](CPI_Mea_Std_Overtime.png)
+![](data_visualizations/CPI_Mea_Std_Overtime.png)
 When the mean is stable with small error bars, suggests more predictability as every following quarter is not too different from the previous. On the other end, the periods with wide error bars suggest low confidence that the mean represents the rest of the dataset. 
 - CPI error bars expanding before recession periods (e.g., 2001, 2007) and after 2020. This makes sense as these periods included sudden spikes quarter over quarter. 
 - It is interesting to observe the error bars during those recession periods and how for each consequently recession the volatility expands with larger fluctuations than the prior recession. I wonder if this is due to the increase in value or the increase in volatility over time.
 
 #### 4. **Percentage of Employed People Holding Multiple Jobs**
   
-![](Annual-Perc-Change-All-Multi-Jobs-Holders.png)
+![](data_visualizations/Annual-Perc-Change-All-Multi-Jobs-Holders.png)
 
 - From 1995 to 2010, the percentage of multiple jobholders showed a clear downward trend. Following that period, it stabilized within a range, dipping sharply to a historic low during the pandemic shutdowns. However, there has been a resurgence since then, approaching the 2008 highs.
 
@@ -70,24 +70,24 @@ When the mean is stable with small error bars, suggests more predictability as e
 
 #### 5. **Types of Multiple Jobs Holders Mean Breakdown Overtime**
 
-![](Annual-Perc-Change-All-Multi-Jobs-Holders_StackBars.png)
+![](data_visualizations/Annual-Perc-Change-All-Multi-Jobs-Holders_StackBars.png)
 
 - Of the three types of multiple job holders, Primary Full-Time with a Secondary Part-Time job is the most common type.
 - All Multiple Job Holder Types have been trending higher compared to the average of the last 30 years.
   
-![](PrimaryFT_SecondaryPT.png)
+![](data_visualizations/PrimaryFT_SecondaryPT.png)
 
 - However, the group with individuals with Primary & Secondary Full-Time jobs started to increase in 2021 before the two other groups.
   
 #### 6. **Delinquency in Credit Card and Multiple Job Holders (Primary FT & Secondary PT)**
 
-![](Delinquencies_Mult-Job-Holders.png)
+![](data_visualizations/Delinquencies_Mult-Job-Holders.png)
 
 - In the periods leading up to the 2001 and 2008 recessions, the trend in multiple job holders with a primary full-time and secondary part-time role closely followed the delinquency rate. 
 - As shown in the chart, this group of job holders increased each time it touched the delinquency rate (e.g. 1996-01 to 2000-01 & 2005-01 to 2008-01). However, this pattern shifts once the recessions begin, likely due to fewer job opportunities available during those economic downturns.
 
 #### 7. **Credit Card Delinquency Acceleration Rate Comparison**
-![](AccelarationTable.png)
+![](data_visualizations/AccelarationTable.png)
 - The period from October 2005 to April 2009, which began before the 2008 Financial Crisis, exhibits a substantial value increase of 3.23 over 1,278 days, resulting in an acceleration of approximately 0.0025 per day.
 
 - In contrast, the current period (July 2021 to April 2024) shows a smaller value increase of 1.71 over 1,005 days, yielding an acceleration rate of about 0.0017 per day. However, with historically low unemployment at present, could the acceleration rate increase if the unemployment trend reverses and begins to rise?
@@ -97,7 +97,7 @@ When the mean is stable with small error bars, suggests more predictability as e
 - Employment-related metrics also demonstrated substantial correlations with inflation and housing costs. The proportion of **Male Multiple Job Holders** relative to total employment had a robust correlation with CPI (0.82), suggesting that higher inflation may be associated with increased labor market participation in secondary jobs. The strong correlations between both **Owner Equivalent Rent** (0.80) and **Rent of Primary Residence** (0.79), indicate a potential feedback loop between inflation, housing affordability, and labor force adjustments.
 
 #### 9. **12-Month Mean of Delinquency as a Recession Signals**
-![](CreditCardDelinquency_RSignal.png)
+![](data_visualizations/CreditCardDelinquency_RSignal.png)
 - We can observe that when the Original value of Delinquency in Credit Card Loans across above its rolling 12-month mean it signals a recession a couple of months later except in April 2022 as no recession has been called out as of yet.
 
 ### **C. Conclusion & Next Step:**
@@ -108,6 +108,9 @@ The analysis revealed a notable correlation between economic and rent-related me
 - **Rent for Primary Residence and Male Multiple Jobholders Percentage:** 0.799774
 
 These findings suggest that economic factors may influence the likelihood of men taking on multiple jobs more significantly than women.
+
+
+![](data_visualizations/Meme.jpg)
 
 #### Next Steps
 Moving forward, I plan to revisit this analysis in a few weeks to incorporate updated metrics. In particular, I aim to enhance the study by adding additional economic indicators, including wage fluctuations, job openings, poverty trends over time, daycare costs, and retail prices. This broader dataset will provide a more comprehensive understanding of the factors influencing multiple job holding.
